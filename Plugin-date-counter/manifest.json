@@ -1,0 +1,12 @@
+{
+	"manifest_version": 2,
+	"name": "Date counter",
+	"description": "How long have I been studying Front-end",
+	"version": "1.0.0",
+	"browser_action": {
+		"default_popup": "index.html"
+	},
+	"permissions": [
+		"activeTab"
+	]
+}

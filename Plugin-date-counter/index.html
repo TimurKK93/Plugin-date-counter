@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="version-name">
+        <p class="title">Date counter</p>
+        <p class="version">v.1.0.0</p>
+    </div>
+
+    <div class="app-wrapper">
+        <p class="heading">I have been studying<br>
+            Front-end </p>
+        <div class="wrapper">
+            <div class="year-wrapper">
+                <p class="year" id="year"></p>
+                <p class="year-text" id="year-text"></p>
+            </div>
+            <div class="month-wrapper">
+                <p class="month" id="month"></p>
+                <p class="month-text" id="month-text"></p>
+            </div>
+            <div class="day-wrapper">
+                <p class="day" id="day"></p>
+                <p class="day-text" id="day-text"></p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="./node_modules/moment/moment.js"></script>
+    <script src="./node_modules/moment-precise-range-plugin/moment-precise-range.js"></script>
+    <script src="./app.js"></script>
+</body>
+
+</html>
