@@ -2,9 +2,13 @@
 	"manifest_version": 2,
 	"name": "Date counter",
 	"description": "How long have I been studying Front-end",
-	"version": "1.0.0",
+	"version": "1.0.1",
+	"icons": {
+		"128": "icons/icon_128px.png"
+	  },
 	"browser_action": {
-		"default_popup": "index.html"
+		"default_popup": "index.html",
+		"default_icon": "icons/icon_16px.png"
 	},
 	"permissions": [
 		"activeTab"
