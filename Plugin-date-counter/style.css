@@ -1,91 +1,95 @@
 * {
-    margin: 0;
-    padding: 0;
-    outline: none;
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  font-family: "Roboto", sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 body {
-    height: 100%;
-    box-sizing: border-box;
+  height: 100%;
+  box-sizing: border-box;
 }
 
 .version-name {
-    display: flex;
-    justify-content: start;
-    align-items: baseline;
-    gap: 5px;
-    width: 279px;
+  display: flex;
+  justify-content: start;
+  align-items: baseline;
+  gap: 5px;
+  width: 279px;
 }
 
 .title {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 9px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 9px;
 }
 
 .version {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 7px;
-    color: rgb(151, 150, 150);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 7px;
+  color: rgb(151, 150, 150);
 }
 
 .app-wrapper {
-    background-color: #EFF5F5;
-    height: 50px;
-    width: 280px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-color: rgba(239, 245, 245, 0.3);
+  height: 50px;
+  width: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .heading {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    text-align: center;
-    color: #0f3150;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  color: #0f3150;
 }
 
 .wrapper {
-    display: flex;
-    justify-content: flex-end;
-    gap: 10px;
-    margin-left: 20px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-left: 20px;
 }
 
 .year-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .month-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .day-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.year, .month, .day {
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
-    font-size: 30px;
-    color: #24527A;
-    line-height: 1em;
-    position: relative;
+.year,
+.month,
+.day {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  color: #24527a;
+  line-height: 1em;
+  position: relative;
 }
 
-.year-text, .month-text, .day-text {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    font-size: 12px;
-    color: #24527A;
+.year-text,
+.month-text,
+.day-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  color: #24527a;
 }
